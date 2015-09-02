@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Function Level Scope</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript">
+        
+        var name = "Scott";
+
+        console.log(name);
+
+        function sayName() {
+            var name = "Damian"; 
+            console.log(name);
+        }
+
+        sayName();
+
+        console.log(name);
+
+    </script>
+</head>
+<body>
+    <h1>Function Level Scope</h1>
+</body>
+</html>

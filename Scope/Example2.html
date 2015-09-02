@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>No Block Level Scope</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript">
+        
+        var name = "Damian"; 
+
+        console.log (name);
+        
+        if (name) {
+	
+            name = "Scott";
+            var age = 21;
+
+            console.log ("Inside if block: ", name);
+            console.log ("Inside if block: ", age); 
+        }
+
+        console.log("Outside if block: ", name);
+        console.log("Outside if block: ", age);
+
+    </script>
+</head>
+<body>
+    <h1>No Block Level Scope</h1>
+</body>
+</html>

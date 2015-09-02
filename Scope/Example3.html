@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Always declare your local variables before you use them</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript">
+        
+        var name = "Damian";
+
+        function printMyName1() {
+            console.log(name);
+        }
+
+        function printMyName2() {
+            name = "Scott";
+            console.log(name);
+        }
+
+        printMyName1();
+
+        printMyName2();
+
+        printMyName1();
+
+    </script>
+</head>
+<body>
+    <h1>Always declare your local variables before you use them</h1>
+    <h2>
+        If you don't declare your local variables with var keyword, they are part of the global scope
+    </h2>
+</body>
+</html>

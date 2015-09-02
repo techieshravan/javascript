@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>No Block Level Scope</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript">
+       
+        var firstName = "Scott";
+        {
+            var firstName = "Damian";
+        }
+
+        console.log(firstName);
+
+    </script>
+</head>
+<body>
+    <h1>No Block Level Scope</h1>
+</body>
+</html>
