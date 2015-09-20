@@ -1,0 +1,27 @@
+<html>
+    
+    <head>
+        <title>Determine Prototype Properties on JS Object</title>
+        <script type="text/javascript">
+            var person = {
+                firstName: "Shravan Kumar",
+                lastName: "Kasagoni",
+                printName: function () {
+                    console.log(this.firstName + " " + this.lastName);
+                }
+            };
+    
+            console.log("toString" in person); // true - prototype property
+            console.log(person.hasOwnProperty("toString")); // false - not an own property
+            
+            console.log(hasPrototypeProperty(person, "toString")); // true - prototype property
+            
+            function hasPrototypeProperty(object, propertyName){
+            	return !object.hasOwnProperty(propertyName) && (propertyName in object);
+            }
+        </script>
+    </head>
+    
+    <body></body>
+
+</html>
