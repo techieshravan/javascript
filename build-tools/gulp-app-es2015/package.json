@@ -1,0 +1,11 @@
+{
+  "name": "gulp-app-es2015",
+  "version": "1.0.0",
+  "description": "Gulp using ES2015",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
