@@ -1,0 +1,18 @@
+{
+  "name": "es6-module-loader-polyfill-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techieshravan/JavaScript/tree/master/ES2015/SystemJS/App1"
+  },
+  "author": "Shravan Kasagoni",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
