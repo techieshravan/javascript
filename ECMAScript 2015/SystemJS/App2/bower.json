@@ -1,0 +1,22 @@
+{
+  "name": "ES6 Module Loader Polyfill Example",
+  "authors": [
+    "Shravan Kasagoni"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-module-loader": "~0.17.10",
+    "traceur": "~0.0.95"
+  }
+}
